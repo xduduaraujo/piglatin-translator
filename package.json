@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "yarn test",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
